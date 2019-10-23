@@ -1,0 +1,77 @@
+Comandos possui: "Opções" e "Argumentos" 
+
+ 
+
+Ex: ls = Listar diretorios ls-l Listar diretorios e propridades 
+
+ 
+
+Comando CD 
+
+cd = Abrir diretorio 
+
+cd.. = retorna um diretorio 
+
+cd = Abre diretorio raiz do usuario 
+
+cd / = Abre diretorio raiz 
+
+cd \nomedodiretorio\nomedodiretorio 
+
+ 
+
+pwd = mostra diretorio atual. 
+
+ls = lista diretorio (ls –l = Lista diretorio e suas propriedades permissivas) 
+
+mkdir = Criar um novo diretorio 
+
+cat = Lê um arquivo 
+
+touch = Cria um arquivo. 
+
+rm = Remove Arquivo 
+
+rmdir = remote arquivo dentro de outro diretorio 
+
+cp = Copia 
+
+mv = move  
+
+file = determina o tipo de arquivo 
+
+gzip = comprime\expande um arquivo 
+
+stat = mostra o status de um arquivo 
+
+tar = cria ou extrai arquivos 
+
+uncompress = restaura um arquivo comprimido 
+
+cat = mostra conteudo de um arquivo 
+
+ 
+
+CHMOD u=r,w,xg=r,w,xr=r,w,x (permissão geral de todos os usuários e grupos) 
+
+ 
+
+Chmod 
+
+u: define que as regras serão aplicadas ao usuário 
+
+g: define que as regras serão aplicadas ao grupo 
+
+o: define que as regras serão aplicadas aos outros usuários do sistema 
+
+a: define que as regras serão aplicadas a todos 
+
+-- 
+
+r: leitura permitida do arquivo ou diretório 
+
+w: permite editar um arquivo ou modificar o conteúdo de um diretório 
+
+x: permite executar um arquivo ou acessar um diretório pelo comando cd 
+
+hífen: o caractere "-" no início da sequência indica que aquele é um arquivo comum. Caso contrário, indica que a permissão de escrita, leitura ou execução está negada. 
